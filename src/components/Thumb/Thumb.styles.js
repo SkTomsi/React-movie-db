@@ -9,7 +9,8 @@ export const Image = styled.img`
   animation: animateThumb 0.5s;
 
   :hover {
-    opacity: 0.5;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   }
 
   @keyframes animateThumb {
