@@ -21,3 +21,13 @@ export const Image = styled.img`
     }
   }
 `;
+
+export const MovieName = styled.div`
+  h1 {
+    font-size: var(--fontSmall);
+    position: relative;
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+`;
