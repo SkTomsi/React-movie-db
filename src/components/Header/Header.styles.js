@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  height: 80px;
   max-width: var(--maxWidth);
   align-content: center;
   justify-content: space-between;
