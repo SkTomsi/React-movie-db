@@ -4,11 +4,11 @@ export const Wrapper = styled.div`
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 41%,
-      rgba(0, 0, 0, 0.65) 100%
+      rgba(0, 0, 0, 0.9) 100%
     ),
     url(${({ image }) => image}), var(--darkGrey);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 700px;
   position: relative;
   animation: animateHeroImage 1s;
